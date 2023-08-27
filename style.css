@@ -1,0 +1,77 @@
+/* filename: style.css */
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal-box {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+#display {
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: inset 2px 2px 5px #cbced1, inset -5px -5px 10px #ffffff;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #ffffff;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.mathbutton {
+  background-color: #ff9f00;
+  color: white;
+}
+
+.mathbutton:hover {
+  background-color: #e88e00;
+}
+
+.clearButton {
+  background-color: #ff3838;
+  color: white;
+}
+
+.clearButton:hover {
+  background-color: #e83030;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: #777;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
